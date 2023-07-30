@@ -22,6 +22,9 @@ discord_id: "131553714581405696"
 steam_name: __lilith 
 twitter_name: lilith_and_halo  # not calling this X ever
 
+fursuit_makers:
+  twisted: http://www.twistedleopard.com/
+
 # build settings
 
 exclude:

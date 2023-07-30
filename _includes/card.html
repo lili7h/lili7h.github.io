@@ -1,0 +1,47 @@
+{% comment %}
+This card include was sourced from the Australian National University's 'Jekyll ANU' theme library,
+provided upon request to their web support team. It is MIT licensed and is owned and created by the 
+ANU.
+
+Generates a card given the following components. All are optional except "title"
+
+@param {string} title - title text for the card
+@param {string} [subtitle] - optional subtitle for the card
+@param {string} [link_url] - optional url for card to link to
+@param {string[]} [tags] - optional list of tags to show on card
+@param {string} [image_url] - optional image to show on card
+@param {string} [image_alt] - provide alt text if image_url is provided
+@param {string} [text] - description text to show on card
+@param {boolean} [current_page] - whether to include aria-current="page" for navigation a11y
+@param {string} [attrs] - optional additional card attributes 
+{% endcomment %}
+
+{% assign title = include.title %}
+{% assign subtitle = include.subtitle %}
+{% assign link_url = include.link_url %}
+{% assign current_page = include.current_page %}
+{% assign image_url = include.image_url %}
+{% assign image_alt = include.image_alt | markdownify | strip_html %}
+{% assign text = include.text %}
+{% assign attrs = include.attrs %}
+
+
+<article class="card"{% if attrs %} {{ attrs }}{% endif %}>
+    {% if link_url %}
+        <a class="card__container card__link" href="{{ link_url }}" {% if current_page %} aria-current="page" {% endif %}>
+    {% else %}
+        <div class="card__container">
+    {% endif %}
+    {% if image_url %}
+        <div class="card__image"><img src="{{ image_url }}" alt="{{ image_alt }}"> </div>
+    {% endif %}
+    <p class="card__title">{{ title | truncate: 128 }}</p>
+    {% if subtitle %}<p class="card__subtitle">{{ subtitle | truncate: 128 }}</p>{% endif %}
+    {% if text %}
+        <p class="card__text">{{ text | truncatewords: 32 }}</p>
+    {% endif %}
+    {% if link_url %}
+        <span class="card__arrow">{% include svg/arrow-right-circled.svg %}</span>
+    {% endif %}
+    {% if link_url %}</a>{% else %}</div>{% endif %}
+</article>
