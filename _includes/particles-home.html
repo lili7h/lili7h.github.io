@@ -1,0 +1,13 @@
+<div id="particles-js" class="fullscreen">
+  <div class="jumbotron text-center">
+    {% if site.photo %}
+    <img class="particles-photo" src="{{ site.photo }}" />
+    {% endif %}
+    <h1 class="particles-title">{{ site.title }}</h1>
+    <h1 class="particles-subtitle">{{ site.taglong }}</h1>
+    {% include links.html %}
+  </div>
+  <div class="particles-scroll">
+    <a class="particles-icon" href="#scroll">{% include svg/nav-arrow-down.svg %}</a>
+  </div>
+</div>

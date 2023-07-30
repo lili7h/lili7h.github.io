@@ -1,0 +1,57 @@
+# site settings
+
+title: Lilith
+description: The landing and ramblings page for all things me; Lilith.
+taglong: Homepage and gallery of Lilith the demon wolf. 
+tagshort: Lilith's homepage.
+url: https://lilithwolf.vip
+baseurl: ""
+permalink: pretty
+repo: https://github.com/lili7h/lili7h.github.io
+
+# author settings
+
+author:
+  name: Lilith Wolf
+  email: nocontact@example.com
+photo: /assets/jpg/photo.jpg
+
+github_name: lili7h
+telegram_name: Lilith_and_halo
+discord_id: "131553714581405696"
+steam_name: __lilith 
+twitter_name: lilith_and_halo  # not calling this X ever
+
+# build settings
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
+
+feed:
+  path: atom.xml
+
+autopages:
+  enabled: false
+
+pagination:
+  enabled: true
+  per_page: 1
+  sort_reverse: true
+  permalink: /:num/
+  title: ":title &middot; Page :num"
