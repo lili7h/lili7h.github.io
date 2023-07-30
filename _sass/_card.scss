@@ -4,8 +4,16 @@
 
 .card {
     border-top: solid 2px #8a2be2;
+    border-color: #8a2be2;
+    border-left: solid 0px transparent;
+    border-right: solid 0px transparent;
+    border-bottom: solid 0px transparent;
+    
+    background-color: var(--oc-gray-7);
     position: relative;
     color: inherit;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 1rem;
   
     &__container {
       padding: $space-vertical 5;
@@ -19,6 +27,7 @@
       text-decoration: none;
       color: inherit;
       background-color: var(--oc-gray-7);
+      border-radius: 1rem;
       @include transition("md", var(--oc-gray-7));
   
       /* Hover, active, and focus state styles */
@@ -26,7 +35,7 @@
         /* Override default link style */
         color: inherit;
         background-color: var(--oc-gray-6);
-  
+        
         .card {
           &__image img {
             transform: scale(1.05);
@@ -51,7 +60,7 @@
       /* If card has an image, position the tags in top left corner over the image */
       .card__image + & {
         position: absolute;
-        top: $space-vertical;
+        // top: $space-vertical;
       }
     }
   
@@ -111,6 +120,7 @@
       /* Add right margin so arrow doesn't overflow when transformed on hover */
       margin-right: $space-xs;
       padding-left: 2.5%;
+      padding-bottom: 2.5%;
       padding-right: 2.5%;
     }
   }

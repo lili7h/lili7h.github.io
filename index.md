@@ -3,6 +3,10 @@ layout: home
 title: Home
 ---
 
+# Latest Ramblings
+
+{% include latest.html %}
+
 # About
 
 Hello! I am Lilith, a rogue wolf on the internet who loves to refer to themselves in the third person. Professionally, Lilith is in the Cybersecurity industry, and is an experienced software developer. Lilith likes to nerd out over C, Java, JavaScript, Rust, Ruby, Python and even more niche things like Jekyll, Liquid, ARM/MIPS/x86 ASM, CUDA, MPI, OpenMP, Operating Systems Implementation and much more.
@@ -17,7 +21,8 @@ This website is built using Jekyll, GitHub Pages and the `Cvless` Jekyll templat
 
 <div class="grid grid--2">
     {% include card.html title="Bash09" link_url="https://github.com/Bash-09" image_url="assets/wall/bash09.png" text="Bash is a very close friend of mine and helped introduce me to the furry world" %}
-    {% include card.html title="Flint" link_url="http://flint.vip/" image_url="assets/wall/flint.png" text="Flint is another very close friend of mine and a very good boi" %}
+    {% include card.html title="Flint" link_url="https://flint.vip/" image_url="assets/wall/flint.png" text="Flint is another very close friend of mine and a very good boi" %}
+    {% include card.html title="Panda" link_url="https://pandaptable.moe/" image_url="https://dp.nea.moe/avatar/97153209843335168.png" text="Panda is a unique friend who has continually challenged my ways of thinking and often invites me to think bigger and better" %}
 </div>
 
 # Did you meet me?

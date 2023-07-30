@@ -1,0 +1,10 @@
+{% assign latest = site.posts | where_exp:"post", "post.hidden != true" | sort: "date" | reverse | slice: 0, 3 %}
+
+<div class="grid grid--3">
+
+    {% for post in latest %}
+        {% assign link_url = post.link_url | default: post.url | relative_url %}
+        {% include card.html title=post.title text=post.lead link_url=link_url %}
+    {% endfor %}
+
+</div>
