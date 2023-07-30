@@ -4,7 +4,7 @@
 
     {% for post in latest %}
         {% assign link_url = post.link_url | default: post.url | relative_url %}
-        {% include card.html title=post.title text=post.lead link_url=link_url %}
+        {% include card.html title=post.title text=post.lead subtitle=post.type link_url=link_url %}
     {% endfor %}
 
 </div>

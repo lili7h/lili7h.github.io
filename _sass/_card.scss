@@ -9,7 +9,7 @@
     border-right: solid 0px transparent;
     border-bottom: solid 0px transparent;
     
-    background-color: var(--oc-gray-7);
+    background-color: var(--color-button);
     position: relative;
     color: inherit;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -26,15 +26,15 @@
       /* Override default link styles */
       text-decoration: none;
       color: inherit;
-      background-color: var(--oc-gray-7);
+      background-color: var(--color-button);
       border-radius: 1rem;
-      @include transition("md", var(--oc-gray-7));
+      @include transition("md", var(--color-button));
   
       /* Hover, active, and focus state styles */
       @include on-event() {
         /* Override default link style */
         color: inherit;
-        background-color: var(--oc-gray-6);
+        background-color: var(--color-mark);
         
         .card {
           &__image img {

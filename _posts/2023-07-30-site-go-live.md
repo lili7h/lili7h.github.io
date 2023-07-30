@@ -2,6 +2,7 @@
 layout: post
 title: Site Birth
 lead: This post marks the birth of the lilithwolf.vip website!
+type: meta
 ---
 
 <img class="particles-photo" src="{{ site.photo }}" />
