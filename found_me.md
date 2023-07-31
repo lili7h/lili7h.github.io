@@ -20,5 +20,5 @@ Contact me via one of the above options with the following information to get fe
 
 - Fursona Name
 - Picture and/or artwork of your 'sona (no AI generated works, please) (optional)
-- Telegram/twitter/discord/other social media handle (optional)
+- A link to direct your card too (you can use a Telegram or discord handle)
 - Time and place of meeting

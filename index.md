@@ -25,6 +25,10 @@ This website is built using Jekyll, GitHub Pages and the `Cvless` Jekyll templat
     {% include card.html title="Panda" link_url="https://pandaptable.moe/" image_url="https://dp.nea.moe/avatar/97153209843335168.png" text="Panda is a unique friend who has continually challenged my ways of thinking and often invites me to think bigger and better" %}
 </div>
 
+# Liliths Gallery
+
+{% include gallery.html %}
+
 # Did you meet me?
 
 If you found this website via NFC, then congratulations! You are one of a very small number who have. How cool! 

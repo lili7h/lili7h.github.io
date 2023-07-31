@@ -1,0 +1,26 @@
+column_one:
+  - path: "assets/gallery/pawbs.jpg"
+    alt: "Lilith holding Bash's pawbs"
+    caption: "Lilith holding Bash's pawbs"
+    size:
+      - 500
+      - 500
+  - path: "assets/gallery/peeker_bash.jpg"
+    alt: "Bash peeking over a soccer stadium miniature"
+    caption: "Godzilla watches Soccer (Colourised)"
+    size:
+      - 500
+      - 300
+column_two:
+  - path: "assets/gallery/sky.jpg"
+    alt: "xXSkyWarriorXx looking pretty"
+    caption: "Sky's very pretty suit"
+    size:
+      - 500
+      - 750
+  - path: "assets/gallery/group1.jpg"
+    alt: "A big group of friendly furries"
+    caption: "Rambunctious animals"
+    size:
+      - 500
+      - 500

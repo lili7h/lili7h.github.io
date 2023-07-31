@@ -1,0 +1,36 @@
+{% assign col_one=site.data.gallery.column_one %}
+{% assign col_two=site.data.gallery.column_two %}
+
+<div class="gallery">
+    <div class="gallery__column">
+        {% for img_obj in col_one %}
+            {% assign path=img_obj.path %}
+            {% assign alt=img_obj.alt | default: "No alt text provided." %}
+            {% assign cap=img_obj.caption | default: alt %}
+            {% assign link="" | append: site.url | append: "/" | append: path %}
+            {% assign size=img_obj.size | join: "x" %}
+            
+            <a href="{{ link }}" target="_blank" class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="{{ link }}/{{ size }}" alt="{{ alt }}" class="gallery__image">
+                    <figcaption class="gallery__caption">{{ cap }}</figcaption>
+                </figure>
+            </a>
+        {% endfor %}
+    </div>
+    <div class="gallery__column">
+        {% for img_obj in col_two %}
+            {% assign path=img_obj.path %}
+            {% assign alt=img_obj.alt | default: "No alt text provided." %}
+            {% assign cap=img_obj.caption | default: alt %}
+            {% assign link="" | append: site.url | append: "/" | append: path %}
+            {% assign size=img_obj.size | join: "x" %}
+            <a href="{{ link }}" target="_blank" class="gallery__link">
+                <figure class="gallery__thumb">
+                    <img src="{{ link }}/{{ size }}" alt="{{ alt }}" class="gallery__image">
+                    <figcaption class="gallery__caption">{{ cap }}</figcaption>
+                </figure>
+            </a>
+        {% endfor %}
+    </div>
+</div>
