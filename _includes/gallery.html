@@ -7,7 +7,7 @@
             {% assign path=img_obj.path %}
             {% assign alt=img_obj.alt | default: "No alt text provided." %}
             {% assign cap=img_obj.caption | default: alt %}
-            {% assign link="" | append: site.url | append: "/" | append: path %}
+            {% assign link="" | append: "/" | append: path %}
             {% assign size=img_obj.size | join: "x" %}
             
             <a href="{{ link }}" target="_blank" class="gallery__link">
@@ -23,7 +23,7 @@
             {% assign path=img_obj.path %}
             {% assign alt=img_obj.alt | default: "No alt text provided." %}
             {% assign cap=img_obj.caption | default: alt %}
-            {% assign link="" | append: site.url | append: "/" | append: path %}
+            {% assign link="" | append: "/" | append: path %}
             {% assign size=img_obj.size | join: "x" %}
             <a href="{{ link }}" target="_blank" class="gallery__link">
                 <figure class="gallery__thumb">
