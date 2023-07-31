@@ -248,3 +248,10 @@
     }
   }
   
+  @mixin breakpoint($point) {
+    @if $point == desktop {
+      @media (min-width: $desktop) {
+        @content;
+      }
+    }
+  }

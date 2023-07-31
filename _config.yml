@@ -49,6 +49,11 @@ sass:
 feed:
   path: atom.xml
 
+default_posts_image:
+  path: "assets/jpg/purple_streaks.jpg"
+  alt: "Picture by FLY:D from Unsplash"
+  caption: "Purple Streaks by FLY:D on Unslpash"
+
 autopages:
   enabled: false
 

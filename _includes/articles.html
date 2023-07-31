@@ -1,0 +1,28 @@
+{% assign latest = site.posts | where_exp:"post", "post.hidden != true" | sort: "date" | reverse | slice: 0, 6 %}
+
+<div class="art_container">
+    {% for post in latest %}
+        {% assign link_url = post.link_url | default: post.url | relative_url %}
+        {% assign post_img = post.image | default: site.default_posts_image.path %}
+        {% if post_img==site.default_posts_image.path %}
+            {% assign img_alt = site.default_posts_image.alt %}
+            {% assign img_caption = site.default_posts_image.caption %}
+        {% else %}
+            {% assign img_alt = post.img_alt | default: "No alt text provided." %}
+            {% assign img_caption = post.caption | default: "No caption provided." %}
+        {% endif %}
+
+        {% assign img_cap = post.lead | append: " " | append: img_caption %}
+
+        <div class="art_card">
+            <figure class="art_card__thumb">
+                <img src="{{ post_img }}" alt="{{ img_alt }}" class="art_card__image">
+                <figcaption class="art_card__caption">
+                    <h2 class="art_card__title">{{ post.title }}</h2>
+				    <p class="art_card__snippet">{{ img_cap }}</p>
+				    <a href="{{ link_url }}" class="art_card__button">Read more</a>
+                </figcaption>
+            </figure>
+        </div>
+    {% endfor %}
+</div>
