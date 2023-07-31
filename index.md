@@ -29,6 +29,8 @@ This website is built using Jekyll, GitHub Pages and the `Cvless` Jekyll templat
 
 {% include gallery.html %}
 
+If you would like a copy of one of these images in full resolution, please contact me via DM and I would be happy to oblige.
+
 # Did you meet me?
 
 If you found this website via NFC, then congratulations! You are one of a very small number who have. How cool! 
