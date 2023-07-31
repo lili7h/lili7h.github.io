@@ -5,7 +5,7 @@ title: Home
 
 # Latest Ramblings
 
-{% include articles.html %}
+{% include blogs.html %}
 
 # About
 
