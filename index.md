@@ -7,6 +7,8 @@ title: Home
 
 {% include blogs.html %}
 
+Or see [all posts.](#posts-archive)
+
 # About
 
 Hello! I am Lilith, a rogue wolf on the internet who loves to refer to themselves in the third person. Professionally, Lilith is in the Cybersecurity industry, and is an experienced software developer. Lilith likes to nerd out over C, Java, JavaScript, Rust, Ruby, Python and even more niche things like Jekyll, Liquid, ARM/MIPS/x86 ASM, CUDA, MPI, OpenMP, Operating Systems Implementation and much more.
@@ -38,5 +40,10 @@ Otherwise, welcome to my website. This website acts as a sort of hub world for a
 There will also be the occasional story time, journal entry, or rambling post from me here.
 
 If you met me in VRChat or at a Con, shoot me a message on Telegram or Discord with the [appropriate information]({% link found_me.md %}) so I can add you to the wall here!
+
+{% include inner-footer.html %}
+
+# Posts Archive 
+{: #posts-archive}
 
 {% include archive.html %}

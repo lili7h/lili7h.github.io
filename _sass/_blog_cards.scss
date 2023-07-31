@@ -21,7 +21,7 @@ $font-family_5: Manrope;
 $font-family_6: antique-olive;
 $font-family_7: freight-display-pro;
 $background-color_1: #ced4da;
-$background-color_2: var(--color-background);
+$background-color_2: var(--color-button);
 $background-color_3: transparent;
 $background-color_4: #bac1c9;
 $background-color_5: hsl(228deg 14% 93%);
@@ -708,18 +708,18 @@ span.badge {
 			display: inline-block;
 			width: 100%;
 		}
-		column-count: 3;
+		column-count: 2;
 		column-gap: 0.5rem;
 		orphans: 4;
 		widows: 4;
 	}
 	.bcontainer {
-		max-width: 98%;
+		max-width: 100%;
 	}
 }
 @media (min-width: 796px) {
 	.bcard-columns {
-		column-count: 3;
+		column-count: 2;
 		column-gap: 1.125rem;
 		orphans: 4;
 		widows: 4;
@@ -727,18 +727,18 @@ span.badge {
 }
 @media (min-width: 966px) {
 	.bcard-columns {
-		column-count: 3;
+		column-count: 2;
 		column-gap: 1.25rem;
 		orphans: 1;
 		widows: 1;
 	}
 	.bcontainer {
-		max-width: 80%;
+		max-width: 100%;
 	}
 }
 @media (min-width: 1200px) {
 	.bcard-columns {
-		column-count: 3;
+		column-count: 2;
 		column-gap: 1.25rem;
 		orphans: 1;
 		widows: 1;

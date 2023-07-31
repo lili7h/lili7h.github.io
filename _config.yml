@@ -12,6 +12,7 @@ repo: https://github.com/lili7h/lili7h.github.io
 # author settings
 
 author:
+  pretty: Lilith
   name: Lilith Wolf
   email: nocontact@example.com
 photo: /assets/jpg/photo.jpg
