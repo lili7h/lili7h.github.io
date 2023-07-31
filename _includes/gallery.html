@@ -1,5 +1,6 @@
 {% assign col_one=site.data.gallery.column_one %}
 {% assign col_two=site.data.gallery.column_two %}
+{% assign url_crop=include.crop %}
 
 <div class="gallery">
     <div class="gallery__column">
@@ -12,7 +13,7 @@
             
             <a href="{{ link }}" target="_blank" class="gallery__link">
                 <figure class="gallery__thumb">
-                    <img src="{{ link }}/{{ size }}" alt="{{ alt }}" class="gallery__image">
+                    <img src="{{ link }}{% if url_crop %}/{{ size }}{% endif %}" alt="{{ alt }}" class="gallery__image">
                     <figcaption class="gallery__caption">{{ cap }}</figcaption>
                 </figure>
             </a>
@@ -27,7 +28,7 @@
             {% assign size=img_obj.size | join: "x" %}
             <a href="{{ link }}" target="_blank" class="gallery__link">
                 <figure class="gallery__thumb">
-                    <img src="{{ link }}/{{ size }}" alt="{{ alt }}" class="gallery__image">
+                    <img src="{{ link }}{% if url_crop %}/{{ size }}{% endif %}" alt="{{ alt }}" class="gallery__image">
                     <figcaption class="gallery__caption">{{ cap }}</figcaption>
                 </figure>
             </a>
