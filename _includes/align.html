@@ -1,0 +1,33 @@
+{% assign direction=include.dir | default="right" | downcase %}
+{% assign text=include.text %}
+{% assign type=include.type | default="none" | downcase %}
+
+{% case type %}
+    {% when "none" %}
+        {% assign sym="" %}
+    {% when "block" %}
+        {% assign sym="`" %}
+    {% when "ital" %}
+        {% assign sym="*" %}
+    {% when "bold" %}
+        {% assign sym="**" %}
+    {% when "bold ital" %}
+        {% assign sym="***" %}
+    {% else %}
+        {% assign sym="" %}
+{% endcase %}
+
+{% capture output %}
+{%- case direction -%}
+    {%- when "left" -%}
+        <p style="text-align:left;" markdown="1">{{ sym }}{{ text }}{{ sym }}</p>
+    {%- when "centre", "center" -%}
+        <p style="text-align:center;" markdown="1">{{ sym }}{{ text }}{{ sym }}</p>
+    {%- when "right" -%}
+        <p style="text-align:right;" markdown="1">{{ sym }}{{ text }}{{ sym }}</p>
+    {%- else -%}
+        <p style="text-align:left;" markdown="1">{{ sym }}{{ text }}{{ sym }}</p>
+{%- endcase -%}
+{% endcapture %}
+
+{{ output | markdownify }}

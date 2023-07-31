@@ -1,4 +1,4 @@
-{% assign latest = site.posts | where_exp:"post", "post.hidden != true" | sort: "date" | reverse | slice: 0, 6 %}
+{% assign latest = site.posts | where_exp:"post", "post.hidden != true" | sort: "date" | reverse | slice: 0, 3 %}
 
 <div class="art_container">
     {% for post in latest %}

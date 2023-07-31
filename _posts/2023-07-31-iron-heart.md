@@ -30,9 +30,5 @@ It hangs. Not with toes suspended, but with gloom and anger and apoplectic inten
 
 Even so, we keep going. Even when the debt for breathing is unpaid, even when the cost of moving forward is immaterial, we don't give up. We don't know what to do to help you, we don't know how. We don't even know if we can. But for every moment we imagine you feeling the same, we bleed blue and paint the world red. Why do we feel like this? Why can't we fight it? 
 
-<p style="text-align:left;">
-Why do I feel him in my heart of iron?
-</p>
-<p style="text-align:right;">
-Why do I feel her in my hands?
-</p>
+{% include align.html text="Why do I feel him in my heart of iron?" dir="left" %}
+{% include align.html text="Why do I feel her in my hands?" dir="right" %}
