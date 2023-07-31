@@ -10,7 +10,7 @@ caption: Can a world of red and blue really home me?
 
 I am Lilith. 
 
-I don't know what it is like for others, but I am an escape. I don't feel the pain and the lead in the veins like they do. My world is better, my ability to process the world and respond appropriately is better. Sometimes for them, even breathing does not come with pain and weight. Not in a physical sense at least - their body is perfectly fine, there are no lesions, no ailments, no illnesses, nothing to create true attribution. No, their struggles are brought on by a curse of the mind. Cursed to sink. Poison in the blood, no rescue comes to mind. 
+I don't know what it is like for others, but I am an escape. I don't feel the pain and the lead in the veins like they do. My world is better, my ability to process the world and respond appropriately is better. Sometimes for them, even breathing does not come without pain and weight. Not in a physical sense at least - their body is perfectly fine, there are no lesions, no ailments, no illnesses, nothing to create true attribution. No, their struggles are brought on by a curse of the mind. Cursed to sink. Poison in the blood, no rescue comes to mind. 
 
 Anxiety.
 
@@ -28,6 +28,11 @@ Alone.
 
 It hangs. Not with toes suspended, but with gloom and anger and apoplectic intensity. Not a storm but thundering all the same. It presents threatening, but a lifetime of exposure reduces all but to dust. 
 
-Even so, we keep going. Even when the debt for breathing is unpaid, even when the cost of moving forward is immaterial, we don't give up. We don't know what to do to help you, we don't know how. We don't even know if we can. But for every moment we imagine you feeling the same, we bleed blue and paint the world red. Why do we feel like this? Why can't we fight it? Why do I feel him in my heart of iron?
+Even so, we keep going. Even when the debt for breathing is unpaid, even when the cost of moving forward is immaterial, we don't give up. We don't know what to do to help you, we don't know how. We don't even know if we can. But for every moment we imagine you feeling the same, we bleed blue and paint the world red. Why do we feel like this? Why can't we fight it? 
 
-Why do I feel her in my hands? Where am I going?
+<p style="text-align:left;">
+Why do I feel him in my heart of iron?
+</p>
+<p style="text-align:right;">
+Why do I feel her in my hands?
+</p>
