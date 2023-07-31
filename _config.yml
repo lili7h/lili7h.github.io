@@ -54,6 +54,16 @@ default_posts_image:
   alt: "Picture by FLY:D from Unsplash"
   caption: "Purple Streaks by FLY:D on Unslpash"
 
+default_banner_image:
+  path: "assets/jpg/purple_pour.jpg"
+  alt: "Picture by Alex Perez from Unsplash"
+  caption: "Picture by Alex Perez from Unsplash"
+
+default_footer_image:
+  path: "assets/jpg/purple_orb.jpg"
+  alt: "Picture by Danny Lines from Unsplash"
+  caption: "Picture by Danny Lines from Unsplash"
+
 autopages:
   enabled: false
 

@@ -11,6 +11,4 @@ How exciting! Lilith finally got sick of having to link things like Github or Te
 
 This website will serve as a landing page for everyone interested, and act as a sort of 'hub world' for anyone who wants to get to know Lilith. If Lilith does not link a given social media from this website, then she does not want to be contacted there with respect to the Furry Fandom and her work as Lilith Wolf.
 
-Here is a core selection of Liliths socials:
-
-{% include links.html %}
+Lilith's core socials are listed below:
