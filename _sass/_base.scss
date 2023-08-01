@@ -91,11 +91,15 @@ table.table {
     transition: .5s ease-in-out;
   }
 
+  &__full {
+    height: auto;
+  }
+
   &__banner_text {
     position: absolute;
     margin-left: 7.5%;
     top: 0.5rem;
-    text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     letter-spacing: 0.2rem;
   }
 
@@ -103,6 +107,17 @@ table.table {
     position: absolute;
     margin-left: 25%;
     top: 35%;
+  }
+
+  &__banner_div {
+    position: absolute;
+    bottom: 10%;
+    margin-top: 33%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+    text-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.66);
   }
 }
 

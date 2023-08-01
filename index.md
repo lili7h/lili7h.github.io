@@ -11,7 +11,7 @@ Or see [all posts.](#posts-archive)
 
 # About
 
-Hello! I am Lilith, a rogue wolf on the internet who loves to refer to themselves in the third person. Professionally, Lilith is in the Cybersecurity industry, and is an experienced software developer. Lilith likes to nerd out over C, Java, JavaScript, Rust, Ruby, Python and even more niche things like Jekyll, Liquid, ARM/MIPS/x86 ASM, CUDA, MPI, OpenMP, Operating Systems Implementation and much more.
+Hello! I am Lilith, a rogue wolf on the internet who loves to refer to themselves in the third person. Professionally, Lilith is in the Cybersecurity industry, and is an experienced software developer. Lilith likes to nerd out over C, Java, JavaScript, Rust, Ruby, Python, CSS/Sass/Scss, HTML5 and even more niche things like Jekyll, Liquid, ARM/MIPS/x86 ASM, CUDA, MPI, OpenMP, Operating Systems Implementation and much more.
 
 Lilith is currently engaged in the [MegaAntiCheat](https://github.com/MegaAntiCheat) project, managed by [megascatterbomb](https://www.youtube.com/c/megascatterbomb). You can also find information on the project and others like it by visiting mega's Discord server or [website](https://megascatterbomb.com/). Lilith's other current projects cannot be discussed publically.
 

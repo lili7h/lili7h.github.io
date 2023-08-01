@@ -1,22 +1,36 @@
 ---
 layout: default
 ---
-
+{% if page.banner_img %}
+  {% assign banner=page.banner_img %}
+  {% assign banner_alt=page.banner_alt %}
+{% else %}
+  {% assign banner=site.default_banner_image.path %}
+  {% assign banner_alt=site.default_banner_image.alt %}
+{% endif %}
 <article>
   {% include header.html %}
   <main>
-    <h1 class="post-title">{{ page.title }}</h1>
-    <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %e, %Y" }}</time>
-    <p class="lead">{{ page.lead }}</p>
-    {% if page.caption %}<br /><p class="lead">{{ page.caption }}</p>{% endif %}
-    
-    {% if page.banner_img %}
-      {% assign banner=page.banner_img %}
-      {% assign banner_alt=page.banner_alt %}
+    {% if page.image %}
+      {% assign image=page.image %}
+      {% assign image_alt=page.alt %}
+      <div style="position: relative;">
+        <img src="/{{ image }}" alt="{{ image_alt }}" class="banner_img banner_img__full">
+        <div class="banner_img__banner_div">
+          <h1 class="post-title">{{ page.title }}</h1>
+          <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %e, %Y" }}</time>
+          <p class="lead">{{ page.lead }}</p>
+        </div>
+      </div>
+      
     {% else %}
-      {% assign banner=site.default_banner_image.path %}
-      {% assign banner_alt=site.default_banner_image.alt %}
+      <h1 class="post-title">{{ page.title }}</h1>
+      <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %e, %Y" }}</time>
+      <p class="lead">{{ page.lead }}</p>
+      {% if page.caption %}<br /><p class="lead">{{ page.caption }}</p>{% endif %}
     {% endif %}
+    
+
     <div style="position: relative;">
       <img src="/{{ banner }}" alt="{{ banner_alt }}" class="banner_img">
       <h2 class="banner_img__banner_text">POSTS | {{page.type | upcase }}</h2>
