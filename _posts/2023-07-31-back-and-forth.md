@@ -162,8 +162,6 @@ caption: A conversation read black and white, felt black and blue. Was it you?
 {% include align.html text="I DON'T CARE." dir="left" type="ital" %}
 {% include align.html text="Even if they don't even know I'm there. I shall still be there for them all." dir="left" type="ital" %}
 {% include align.html text="I will swallow it all and be Lilith, because that's all that I can do." dir="left" type="ital" %}
-{% include align.html text="You showing up to pound my organs to dust and rock the ache in my core isn't helping." dir="left" type="ital" %}
+{% include align.html text="My demons be damned..." dir="left" type="ital" %}
 
 {% include align.html text="The rain nonchalantly continued to fall, unperturbed by the stranger yelling at shadows." dir="center" %}
-{% include align.html text="It's time to wake up..." dir="center" %}
-{% include align.html text="Real life is at the door, and it's angry." dir="center" %}
