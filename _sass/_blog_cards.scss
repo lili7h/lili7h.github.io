@@ -56,22 +56,15 @@ $border-color_7: #ffffff99 #ffffff60 #0001 #ffffff50;
 		margin-left: 0;
 	}
 }
-// body {
-// 	display: flex;
-// 	font-size: 1rem;
-// 	flex-direction: column;
-// 	min-height: 100vh;
-// 	margin: 0;
-// 	font-family: $font-family_1;
-// 	line-height: 1.5;
-// 	color: $color_1;
-// 	background-color: $background-color_1;
-// 	-webkit-text-size-adjust: 100%;
-// 	-ms-text-size-adjust: 100%;
-// 	.footer {
-// 		margin-top: auto;
-// 	}
-// }
+body {
+	display: flex;
+	flex-direction: column;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	.footer {
+		margin-top: auto;
+	}
+}
 .bcard-link {
 	font-size: 1rem;
 	letter-spacing: 0.0178571em;
