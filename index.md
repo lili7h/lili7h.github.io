@@ -3,12 +3,6 @@ layout: home
 title: Home
 ---
 
-# Latest Ramblings
-
-{% include blogs.html %}
-
-Or see [all posts.](#posts-archive)
-
 # About
 
 Hello! I am Lilith, a rogue wolf on the internet who loves to refer to themselves in the third person. Professionally, Lilith is in the Cybersecurity industry, and is an experienced software developer. Lilith likes to nerd out over C, Java, JavaScript, Rust, Ruby, Python, CSS/Sass/Scss, HTML5 and even more niche things like Jekyll, Liquid, ARM/MIPS/x86 ASM, CUDA, MPI, OpenMP, Operating Systems Implementation and much more.
@@ -18,6 +12,14 @@ Lilith is currently engaged in the [MegaAntiCheat](https://github.com/MegaAntiCh
 Lilith's icon and artwork (which adorn this page) were created by the incredibly talented `@sir_lorart` on Twitter (No she will not be calling it X), and Lilith's fursuit components are a mix of the equally incredible artists over at [Twisted]({{ site.fursuit_makers.twisted }}) and herself.
 
 This website is built using Jekyll, GitHub Pages and the `Cvless` Jekyll template. You can find more information regarding this on Lilith's GitHub.
+
+{% include img-full.html path="assets/png/lilith-half.png" alt="Half body commission of Lilith, done by the amazing @sir_lorart on Twitter." %}
+
+# Latest Ramblings
+
+{% include blogs.html %}
+
+Or see [all posts.](#posts-archive)
 
 # Liliths Wall
 

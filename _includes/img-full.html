@@ -1,0 +1,7 @@
+{% if include.url %}
+    {% assign image=include.url %}
+{% elsif include.path %}
+    {% assign image=include.path | prepend: "/" %}
+{% endif %}
+{% assign image_alt=include.alt %}
+<img src="{{ image }}" alt="{{ image_alt }}" class="banner_img banner_img__full">
