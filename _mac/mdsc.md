@@ -111,10 +111,6 @@ More generally, any tools or clients we make for the purpose of this project MUS
 
 Additionally, `admin` or `sudo`/`root` permissions will **never** be required to run our application, and as such our application will **never perform any privileged system operations**.
 
----
-{% include img-full.html path="assets/jpg/mvm-wallpaper-reddit.jpg" alt="Created by /u/Gx4 on Reddit" %}
-> Image credit: /u/Gx4 on Reddit, uploaded [here](https://www.reddit.com/r/tf2/comments/yby1m/i_made_a_mvm_wallpaper_1920x1080/)
-
 ### What are the known problems?
 
 MegaAntiCheat, being a fully open-source and freely available software, means that dishonest users can freely modify our client tools (or create their own) to submit junk or manipulated data to the MasterBase.
@@ -132,6 +128,10 @@ The TF2 console does not log all events that occur in a server. The TF2 console 
 The vote events and vote ID are tracked in the demo file, as they are events propagated by network packet.
 
 TF2 votes initiated by a player last for 15 seconds. This means a vote can fall entirely between to demo disk writes and be completely missed by the client and/or the MasterBase. If we intend to automate calling and voting in player vote-kicks, we need to find a way to more routinely extract demo data.
+
+---
+{% include img-full.html path="assets/jpg/mvm-wallpaper-reddit.jpg" alt="Created by /u/Gx4 on Reddit" %}
+> Image credit: /u/Gx4 on Reddit, uploaded [here](https://www.reddit.com/r/tf2/comments/yby1m/i_made_a_mvm_wallpaper_1920x1080/)
 
 ## Let's Break Down the Problem
 
