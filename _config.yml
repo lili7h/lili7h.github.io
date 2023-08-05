@@ -9,6 +9,18 @@ baseurl: ""
 permalink: pretty
 repo: https://github.com/lili7h/lili7h.github.io
 
+collections:
+  mac:
+    output: true
+
+defaults:
+  - 
+    scope:
+      path: "mac"
+    values:
+      layout: post
+      toc: true
+
 # author settings
 
 author:
@@ -38,9 +50,12 @@ plugins:
   - jekyll-paginate-v2
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-toc
 
 whitelist:
   - jekyll-sitemap
+
+markdown: kramdown
 
 sass:
   sass_dir: _sass

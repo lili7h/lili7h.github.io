@@ -9,6 +9,8 @@ Hello! I am Lilith, a rogue wolf on the internet who loves to refer to themselve
 
 Lilith is currently engaged in the [MegaAntiCheat](https://github.com/MegaAntiCheat) project, managed by [megascatterbomb](https://www.youtube.com/c/megascatterbomb). You can also find information on the project and others like it by visiting mega's Discord server or [website](https://megascatterbomb.com/). Lilith's other current projects cannot be discussed publically.
 
+For the latest work on the `MegaAntiCheat` spec, see the [MDSC Protocol]({% link _mac/mdsc.md %}).
+
 Lilith's icon and artwork (which adorn this page) were created by the incredibly talented `@sir_lorart` on Twitter (No she will not be calling it X), and Lilith's fursuit components are a mix of the equally incredible artists over at [Twisted]({{ site.fursuit_makers.twisted }}) and herself.
 
 This website is built using Jekyll, GitHub Pages and the `Cvless` Jekyll template. You can find more information regarding this on Lilith's GitHub.

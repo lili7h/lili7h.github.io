@@ -4,4 +4,17 @@
     {% assign image=include.path | prepend: "/" %}
 {% endif %}
 {% assign image_alt=include.alt %}
+
+{% if include.with_caption %}
+    {% assign cap=include.caption %}
+    {% assign sub=include.subtext %}
+<div style="position: relative;">
+    <img src="{{ image }}" alt="{{ image_alt }}" class="banner_img banner_img__full">
+    <div class="banner_img__banner_div">
+        <h1 class="post-title">{{ cap }}</h1>
+        <p class="lead">{{ sub }}</p>
+    </div>
+</div>
+{% else %}
 <img src="{{ image }}" alt="{{ image_alt }}" class="banner_img banner_img__full">
+{% endif %}

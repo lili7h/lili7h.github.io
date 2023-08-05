@@ -121,3 +121,19 @@ table.table {
   }
 }
 
+.formal_table {
+  width: 100%;
+  text-align: left;
+
+  thead {
+    border-style: solid;
+    border-width: 0.5px;
+  }
+
+  tbody {
+    border-style: solid;
+    border-width: 0.5px;
+    text-align: left;
+  }
+}
+
