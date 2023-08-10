@@ -9,6 +9,8 @@ caption: Image by Cassi Josh on Unsplash
 
 ssname: Spin Station 17
 ship: Brightspark
+hidden: true
+published: false
 ---
 
 {% assign ssname=page.ssname %}

@@ -6,6 +6,8 @@ type: Meta
 image: assets/jpg/adam-gonzales-cat.jpg
 alt: Image by Adam Gonzales on Unsplash
 caption: While she is finding her style and place, please bare with her.
+hidden: true
+published: false
 ---
 
 Over time Lilith has struggled with many components of her physical, social and psychosocial worlds. Many times has she had so much fire and energy in her core that she couldn't capably deal with it. To an extent, writing is her primary outlet for things she feels but can't so clearly interpret in a physical sense.

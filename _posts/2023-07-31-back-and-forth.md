@@ -6,6 +6,8 @@ type: Fiction
 image: assets/jpg/maria-orlova-swirl.jpg
 alt: Image by Maria Orlova on Unsplash
 caption: A conversation read black and white, felt black and blue. Was it you?
+hidden: true
+published: false
 ---
 <!-- Welcome to the horrors of programmatically defining Jekyll pages... -->
 

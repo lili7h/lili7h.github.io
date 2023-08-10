@@ -6,6 +6,8 @@ type: Fiction
 image: assets/jpg/lead-heart.png
 alt: Image by Jr Korpa on Unsplash
 caption: Can a world of red and blue really home me?
+hidden: true
+published: false
 ---
 
 I am Lilith. 

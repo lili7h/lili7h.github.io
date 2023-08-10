@@ -12,6 +12,8 @@ caption: Image by Cassi Josh on Unsplash
 ssname: Spin Station 17
 ship: Brightspark
 sec: Star Helix
+hidden: true
+published: false
 ---
 
 {% assign ssname=page.ssname %}

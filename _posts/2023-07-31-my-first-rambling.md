@@ -3,6 +3,8 @@ layout: post
 title: What to expect
 lead: What should you expect from the posts on this site?
 type: meta
+hidden: true
+published: false
 ---
 
 It's somewhat difficult to lay out a specific set of rules documenting the types of things to expect, so instead have a set of examples:
