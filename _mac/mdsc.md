@@ -4,6 +4,8 @@ title: MAC Demo Sharing and Coordination Protocol
 lead: A DRAFT revision of Lilith's MDSCP proposal
 type: DRAFT RFC
 toc: true
+hidden: true
+published: false
 ---
 
 # RFC MegaAntiCheat Client-Server Communication and Standards Protocol
