@@ -1,11 +1,13 @@
 pre,code {
   font-family: var(--type-mono);
+  color: var(--color-text);
 }
 
 .highlight {
-  padding: 0 1em;
-  border-radius: 0.25em;
-  color: var(--color-chunk);
+  padding: 0.33rem;
+  border-radius: 0.5rem;
+  font-size: small;
+  background-color: var(--color-button);
 
   pre {
     padding: 0;

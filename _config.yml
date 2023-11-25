@@ -57,6 +57,12 @@ whitelist:
 
 markdown: kramdown
 
+kramdown:
+  # syntax_highlighter: coderay
+  syntax_highlighter_opts:
+    line_numbers: false
+    css: class
+
 sass:
   sass_dir: _sass
   style: compressed
