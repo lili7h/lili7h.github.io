@@ -67,6 +67,12 @@ img {
   max-width: 100%;
   margin: 1em 0;
   border-radius: 0.25em;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(2);
+    transition: transform .5s ease;
+  }
 }
 
 table.table {
@@ -84,6 +90,7 @@ table.table {
   &:hover {
     object-position: 50% 40%;
     transition: .5s ease-in-out;
+    transform: scale(1);
   }
 
   &::after {
@@ -137,3 +144,8 @@ table.table {
   }
 }
 
+.caption_text {
+  text-align: center;
+  color: var(--color-chunk);
+  margin-top: -1rem;
+}
