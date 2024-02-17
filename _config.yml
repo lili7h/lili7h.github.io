@@ -10,7 +10,7 @@ permalink: pretty
 repo: https://github.com/lili7h/lili7h.github.io
 
 collections:
-  mac:
+  schemas:
     output: true
 
 defaults:

@@ -1,0 +1,21 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://masterbase.chs.gg/schemas/playerlist.schema.v1.json",
+    "title": "MAC PlayerList V1",
+    "description": "A playerlist that describes a set of tracked players and state for the MegaAntiCheat app, version 1 of the schema",
+    "type": "object",
+    "properties": {
+        "records": {
+            "description": "The set of all tracked Player Records",
+            "type": "object",
+            "patternProperties": {
+                "^7656\\d+$": {
+                    "type": "object",
+                    "$ref": "https://masterbase.chs.gg/schemas/playerlist.playerrecord.schema.v1.json"
+                }
+            }
+        }
+    },
+    "required": [ "records" ]
+}
+    

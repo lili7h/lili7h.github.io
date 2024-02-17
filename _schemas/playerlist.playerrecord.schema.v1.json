@@ -1,0 +1,43 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://masterbase.chs.gg/schemas/playerlist.playerrecord.schema.v1.json",
+    "title": "MAC PlayerList PlayerRecord V1",
+    "description": "A player record that describes a tracked player for the MegaAntiCheat app, version 1 of the schema",
+    "type": "object",
+    "properties": {
+        "custom_data": {
+            "description": "Any custom data attached to this player by the front-end, or unofficial back-ends.",
+            "type": "object",
+            "properties": {
+                "playerNote": {
+                    "description": "The [optional] player note attached to this player record by the user",
+                    "type": "string",
+                    "required": false,
+                    "optional": true
+                }
+            },
+            "required": []
+        },
+        "verdict": {
+            "description": "The verdict attached to this tracked player, could be one of 'Player', 'Trusted', 'Cheater', 'Bot', 'Suspicious'.",
+            "type": "string"
+        },
+        "previous_names": {
+            "description": "The set of previously recognised names for this player, can be empty, no maximum length",
+            "type": "array",
+            "minItems": 0
+        },
+        "modified": {
+            "description": "The time (ISO 8601 Zulu/UTC time) of the last modification to this player record",
+            "type": "string",
+            "format": "date-time"
+        },
+        "created": {
+            "description": "The time (ISO 8601 Zulu/UTC time) of the creation of this player record",
+            "type": "string",
+            "format": "date-time"
+        }
+    },
+    "required": ["custom_data", "verdict", "previous_names", "modified", "created"]
+}
+    
