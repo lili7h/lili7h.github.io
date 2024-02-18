@@ -29,9 +29,7 @@
                     "properties": {
                         "playerNote": {
                             "description": "The [optional] player note attached to this player record by the user",
-                            "type": "string",
-                            "required": false,
-                            "optional": true
+                            "type": "string"
                         }
                     },
                     "required": []
