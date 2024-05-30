@@ -8,6 +8,10 @@ layout: default
   {% assign banner=site.default_banner_image.path %}
   {% assign banner_alt=site.default_banner_image.alt %}
 {% endif %}
+{% assign ptype=page.type | upcase %}
+{% unless page.no_banner_text %}
+  {% assign banner_text="POSTS |" | append: ptype %}
+{% endunless %}
 <article>
   {% include header.html %}
   <main>
@@ -18,22 +22,26 @@ layout: default
         {% include img-full.html path=page.image alt=image_alt %}
         <div class="banner_img__banner_div">
           <h1 class="post-title">{{ page.title }}</h1>
-          <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %e, %Y" }}</time>
+          {% unless page.no_date %}
+            <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %e, %Y" }}</time>
+          {% endunless %}
           <p class="lead">{{ page.lead }}</p>
         </div>
       </div>
       
     {% else %}
       <h1 class="post-title">{{ page.title }}</h1>
-      <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %e, %Y" }}</time>
+      {% unless page.no_date %}
+        <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date: "%B %e, %Y" }}</time>
+      {% endunless %}
       <p class="lead">{{ page.lead }}</p>
       {% if page.caption %}<br /><p class="lead">{{ page.caption }}</p>{% endif %}
     {% endif %}
     
-
+    
     <div style="position: relative;">
       <img src="/{{ banner }}" alt="{{ banner_alt }}" class="banner_img">
-      <h2 class="banner_img__banner_text">POSTS | {{page.type | upcase }}</h2>
+      <h2 class="banner_img__banner_text">{{ banner_text }}</h2>
     </div>
 
     {{ content }}

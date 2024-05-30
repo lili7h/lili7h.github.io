@@ -12,6 +12,8 @@ repo: https://github.com/lili7h/lili7h.github.io
 collections:
   schemas:
     output: true
+  lore:
+    output: true
 
 defaults:
   - 
