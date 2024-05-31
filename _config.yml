@@ -10,6 +10,8 @@ permalink: pretty
 repo: https://github.com/lili7h/lili7h.github.io
 
 collections:
+  lists:
+    output: true
   schemas:
     output: true
   lore:
