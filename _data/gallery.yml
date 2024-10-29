@@ -11,6 +11,12 @@ column_one:
     size:
       - 500
       - 300
+  - path: "assets/gallery/peakers.jpg"
+    alt: "A big group of more friendly furries"
+    caption: "mischievous creatures"
+    size:
+      - 500
+      - 650
 column_two:
   - path: "assets/gallery/sky.jpg"
     alt: "xXSkyWarriorXx looking pretty"
@@ -24,3 +30,9 @@ column_two:
     size:
       - 500
       - 500
+  - path: "assets/gallery/tadah.jpg"
+    alt: "Smaller group of furries with me slav squatting"
+    caption: "what'chu got??"
+    size:
+      - 500
+      - 400
